@@ -1,0 +1,30 @@
+{
+    "name": "cristian/tappx-technical-test",
+    "description": "Technical test for Tappx",
+    "type": "project",
+    "license": "propietary",
+    "authors": [
+        {
+            "name": "Cristian González",
+            "email": "cristian.goen@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Tappx\\" : ["src"]
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tappx\\Tests\\": ["tests"]
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    },
+    "require": {
+        "guzzlehttp/guzzle": "^7.3",
+        "larapack/dd": "1.*",
+        "vlucas/phpdotenv": "^5.3"
+    }
+}
